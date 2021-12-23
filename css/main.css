@@ -1,0 +1,174 @@
+ body{
+     
+     color: white;
+     background-color: rgb(71, 68, 68);
+     height: auto;
+     width: 100%;
+ }
+ #header .navbar{
+     width: 100%;
+ background: linear-gradient(to left , rgb(30, 56, 204)  ,rgb(168, 23, 23) , rgb(29, 3, 99) );
+ opacity: 0.5;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    transition: all 1s;
+}
+.navbar-brand:hover{
+    color: black;
+    background-color: white;
+}
+.navbar-brand img{
+    width: 70px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+.navbar-brand img:hover{
+    transform: rotate(360deg);
+}
+
+.navbar-nav {
+    color: black;
+}
+#header .navbar ul li a{
+    color: white;
+    font-weight: bold;
+    transition: all 1s;
+}
+#header .navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.navbar .form-control{
+    background: linear-gradient(to right , #111,rgb(240, 4, 161),#222);
+}
+ .navbar .btn{
+    transition: all 1s; 
+}
+.navbar .btn:hover{
+    border-radius: 50px;
+    background: black;
+    color: red;
+}
+/* ============================END OF NAVBAR============================ */
+#mission{
+    padding: 50px 0px;
+    background-color: #222;
+}
+.header-profile h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(240, 238, 146);   
+    font-weight: bold;
+}
+.hl{
+    width: 50%;
+    margin: auto;
+    height: 3px;
+    background:linear-gradient(to right, black,rgb(71, 3, 3),black);
+}
+hr{
+    border: white 2px dotted;
+}
+.container img{
+ width: 100%;
+ 
+
+}
+.profile-data{
+    margin-top: 20px;
+}
+/* ============================END OF MISSION============================ */
+
+
+
+.header-gallary h1{
+    text-align: center;
+    margin-top: 20px;
+    color: blueviolet;   
+
+}
+#pills-tab{
+    justify-content: center; 
+    }
+.nav-item{
+    margin-top: 15px;
+ margin-right: 100px;
+
+}
+#gallary .nav a{
+    border-radius: 50px;
+}
+
+.tab-pane{
+    margin: 50px;
+    padding: 10px;
+
+    
+}
+
+.size img{
+    width: 100%;
+    padding: 5px;
+}
+/* ============================END OF GALLARY============================ */
+
+.header-order h1{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(196, 6, 16)
+}
+.form{
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #222;
+}
+.map{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map img{
+    margin-left:20px;
+    margin-top: 30px;
+    width: 100%;
+}
+.order{
+    color: rgb(212, 215, 224);
+}
+.form .btn{
+    transition: all 1s;
+}
+.form .btn:hover{
+    border-radius: 50px;
+    background: black;
+    color: red;
+}
+.form-control{
+    background: linear-gradient(to right,gray,#223,gray);
+}
+/* ============================END OF SHOPPING============================ */
+
+#about{
+    justify-content: space-around;
+    
+}
+.Items{
+    background-color: black;
+}
+#about h1{
+    color: silver;
+    margin: 20px;
+    transition: all 1s;
+}
+#about h1:hover{
+    color: black;
+    background-color: white;
+}
+.Item{
+    margin-top: 20px;
+}
